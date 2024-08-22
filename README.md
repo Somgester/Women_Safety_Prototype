@@ -1,7 +1,7 @@
 # Women-Safety_Prototype
 ## Checkout Figma UI Design Through The Link Below: 
     https://www.figma.com/design/gUDNQPak3cfBws204QdLEX/Dashboard?node-id=0-1&t=UQp6Kbh06mcoEuHJ-1
-## Checkout The Video
+## Please Checkout our Presentation Video
       https://drive.google.com/file/d/1sR6u7jEQqaqKsSmWoXO8fWTVO6E67XoH/view?usp=sharing
 
 ## Frontend TechStack
