@@ -4,3 +4,29 @@
 ## Checkout The Video
   video will be added here
   <video src="" width=180>
+
+## Frontend TechStack
+    React + Vite
+    MaterialUI
+    CSS3
+
+## Backend TechStack
+    Spring Boot
+    Flask
+
+## Model TeckStack 
+    Python
+    Lightweight Version Of YOLO(Yolov8).
+    OpenCV
+    Pandas
+
+## Web Scraping
+    Python
+    CV2
+    yt_dlp
+
+## Other
+    PostgreSQL
+    TensorFlow
+    JSON
+    Git And GitHub
