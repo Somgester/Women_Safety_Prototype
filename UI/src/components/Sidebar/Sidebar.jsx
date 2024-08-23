@@ -63,7 +63,7 @@ const Sidebar = () => {
         </form>
       </div>
       <div className="contact">
-      <h3 style={{color:"gray", fontSize:"15px", fontWeight:"bold", marginBottom:"5px"}}>Contact Software head</h3>
+      <h3 style={{color:"gray", fontSize:"1.2vw", fontWeight:"bold", marginBottom:"5px"}}>Contact Software head</h3>
         <p> <FaPhone/>8957298885</p>
         <p><MdEmail/>kuldeepagrahari9103@gmail.com</p>
       </div>
