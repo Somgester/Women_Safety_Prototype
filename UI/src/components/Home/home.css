@@ -1,0 +1,13 @@
+.home{
+    width: 79%;
+    float: right;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 12vh;
+    padding: 5px 10px;
+    height:86vh;
+    overflow-y: scroll;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}

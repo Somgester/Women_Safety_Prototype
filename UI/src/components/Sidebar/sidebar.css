@@ -1,0 +1,166 @@
+.sidebar{
+
+    width: 260px;
+
+    width: 20%;
+
+    float: left;
+    /* background-color: black; */
+    color:black;
+    height:100vh;
+    position: fixed;
+
+
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 10px; */
+    box-shadow: 2px 2px 5px rgb(183, 181, 181);
+
+
+
+
+}
+.sidebar h1{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3vw;
+    background-color: rgb(241, 8, 117);
+    width: 100%;
+    color:white;
+    padding: 20px 0;
+    height: 20vh;
+
+
+
+    /* box-shadow: 2px 2px 10px rgb(176, 174, 174); */
+
+}
+
+.analytic-head h3 {
+    margin-left: 0; /* Adjusted for consistency */
+    
+   
+}
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 2vh;
+    padding: 0 10px; /* Removed the top and bottom padding for better alignment */
+}
+.filter-box form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px rgb(251, 3, 111) solid;
+
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 20vw;
+    /* display: flex; */
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    
+    /* flex-direction: column; */
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    
+    /* margin-left: 20px; */
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; 
+}
+.filter-box button{
+    padding: 10px 20px;
+    height: 6vh;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(249, 5, 115);
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(107, 107, 107);
+
+}
+
+.filter-box button:hover{
+    transform: scale(1.01);
+}
+
+ 
+.footer{
+
+    margin-top:2vh;
+    height: 5vh;
+    background-color: #f10462;
+    color:white;
+    margin-top: auto;
+    height: 5vh;
+    background-color: #f10462;
+    color: white;
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* align-items: center; */
+
+}
+.contact{
+    width: 92%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:5px;
+    height: 11vh;
+    
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 2px rgb(251, 3, 111) solid; */
+    margin-left: 10px;
+    margin-top: 4vh;
+}
+.contact p{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:10px;
+}

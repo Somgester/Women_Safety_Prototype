@@ -1,0 +1,52 @@
+.not-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.not-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.not-card .icon {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-card  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.not-card  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.not-card  .location {
+    font-weight: bold;
+    color: #333;
+}
+
+.not-card  .timestamp {
+    font-style: italic;
+}
+
+.not-card  .message {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
