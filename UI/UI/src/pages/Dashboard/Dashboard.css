@@ -1,0 +1,90 @@
+.dash{
+    padding: 15px 10px;
+    opacity: 0;
+        animation: fadeIn 2s forwards;
+      
+
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/* .dash .summary{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    
+} */
+.dash .map{
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  margin-top: 5vh;
+}
+.dash {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sum-box {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.sum-box button{
+    height: 6vh;
+    padding: 10px 20px ;
+    border: none;
+    font-size: 15px;
+    color:black;
+    margin-top: 5vh;
+    cursor: pointer;
+    border-radius: 20px;
+
+    background-color: rgb(158, 183, 244);
+    /* background-color:rgb(253, 202, 137); */
+    /* background-color:pink; */
+}
+.sum-box button:hover{
+    transform: scale(1.05);
+}
+.sum-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.sum-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+}
+
+.count-box {
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+.hotspot {
+    background-color: #fff3e0; /* Light orange background */
+}
+
+.emergency-alert {
+    background-color: #ffebee; /* Light red background */
+}

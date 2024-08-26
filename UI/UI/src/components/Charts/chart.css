@@ -1,0 +1,11 @@
+.chart-box{
+    width:98%;
+    height:60vh;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 5vh;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
