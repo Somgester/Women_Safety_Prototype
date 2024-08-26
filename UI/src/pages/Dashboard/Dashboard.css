@@ -26,6 +26,7 @@
   height: 90vh;
   background-color: black;
   margin-top: 5vh;
+  border-radius: 20px;
 }
 .dash {
     display: flex;
