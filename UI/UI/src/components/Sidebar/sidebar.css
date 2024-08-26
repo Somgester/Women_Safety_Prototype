@@ -46,7 +46,6 @@
 .filter-box {
     display: flex;
     flex-direction: column;
-    /* height:60vh; */
     /* align-items: center; */
     margin-top: 2vh;
     padding: 0 10px; /* Removed the top and bottom padding for better alignment */
@@ -56,10 +55,9 @@
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-around;
-    padding: 1vw;
+    padding: 10px;
     border-radius: 10px;
     border: 2px rgb(251, 3, 111) solid;
-    height:60vh;
 
 }
 .form-group {
@@ -73,78 +71,46 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 1vw;
-
+    font-size: 15px;
 }
 
 .checkbox-group {
     display: flex;
     flex-wrap: wrap;
     gap:5px;
-    word-break: break-all;
-    box-sizing: border-box;
-    width: 90%;
-    /* display: block; */
+    
     /* flex-direction: column; */
 }
 
 .checkbox-group label {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    gap:5px;
     margin-bottom: 10px;
     font-weight: normal;
-    word-break: break-all;
-    width: 100px;
-   
-    
-    
     
     /* margin-left: 20px; */
 }
 
 input[type="text"] {
     width: 70%;
-    /* margin-right: 250px; */
-    /* margin-left: 15%; */
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1.1vw; 
-    /* flex-wrap: wrap; */
-    /* width:1vw; */
-}
-input[type="checkbox"] {
-    /* width: 70%; */
-    /* padding: 8px; */
-    box-sizing: border-box;
-    /* border: 1px solid #ccc; */
-    border-radius: 4px;
     font-size: 14px; 
-    display: flex;
-    gap: 5px;
-    word-break: break-all;
-    /* flex-wrap: wrap; */
-    /* width:1vw; */
 }
-
 .filter-box button{
     padding: 10px 20px;
-    height: 5vh;
-    width: 10vw;
+    height: 6vh;
+    width: 120px;
     border-radius: 5px;
     border: none;
     background-color: rgb(249, 5, 115);
     color:white;
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 13px;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgb(107, 107, 107);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -155,7 +121,7 @@ input[type="checkbox"] {
  
 .footer{
 
-    /* margin-top:2vh; */
+    margin-top:2vh;
     height: 5vh;
     background-color: #f10462;
     color:white;
@@ -164,7 +130,7 @@ input[type="checkbox"] {
     background-color: #f10462;
     color: white;
 
-    font-size: 1vw;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,29 +140,27 @@ input[type="checkbox"] {
 }
 .contact{
     width: 92%;
-    font-size: 0.8vw;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap:2px;
-    height: 10vh;
+    gap:5px;
+    height: 11vh;
     
     padding: 10px;
     border-radius: 10px;
     /* border: 2px rgb(251, 3, 111) solid; */
     margin-left: 10px;
-    margin-top: 1vh;
+    margin-top: 4vh;
 }
 .contact p{
     width: 100%;
-    font-size: 1vw;
+    font-size: 12px;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     gap:10px;
-    word-break: break-word; /* or break-all */
 }
-

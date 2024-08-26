@@ -35,7 +35,7 @@
     font-weight: bold;
     box-shadow: 2px 2px 10px black;
     margin-left: 10px;
-    color:black;
+    
 }
 .nav-left a:hover{
     transform: scale(1.05);

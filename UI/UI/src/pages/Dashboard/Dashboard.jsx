@@ -45,7 +45,7 @@ const Dashboard = () => {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117368.24373338332!2d79.96454726803869!3d23.17904492468473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981a9715ba1923d%3A0xba3ef8a2be6b0ccf!2sKhamaria%2C%20Jabalpur%2C%20Madhya%20Pradesh%20482005!5e0!3m2!1sen!2sin!4v1724109031529!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
-                    style={{ border: 0 , borderRadius:"10px"}}
+                    style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
