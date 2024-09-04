@@ -15,11 +15,38 @@
 # # Download the video 
 # best.download() 
 
-import yt_dlp as youtube_dl
+# import yt_dlp as youtube_dl
 
-def download_video(url, folder_name='videos', filename='video16.mp4'):
+# def download_video(url, folder_name='videos', filename='video16.mp4'):
+#     # Create the output directory if it doesn't exist
+#     import os
+#     if not os.path.exists(folder_name):
+#         os.makedirs(folder_name)
+    
+#     # Construct the full path for the downloaded video
+#     output_path = os.path.join(folder_name, filename)
+    
+#     # Download the video
+#     ydl_opts = {
+#         'outtmpl': output_path,
+#         'format': 'best',
+#     }
+    
+#     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+#         ydl.download([url])
+    
+#     print(f"Video downloaded to {output_path}")
+# take input from user
+# download_video('https://www.youtube.com/watch?v=5kAnh6smxLg')
+
+
+
+import yt_dlp as youtube_dl
+import os
+
+def download_video(url, folder_name='NonHarassmentVideo', filename='extracted_segment.mp4'):
+
     # Create the output directory if it doesn't exist
-    import os
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
     
@@ -38,6 +65,4 @@ def download_video(url, folder_name='videos', filename='video16.mp4'):
     print(f"Video downloaded to {output_path}")
 
 # Example usage
-# take input from user
-# download_video('https://www.youtube.com/watch?v=K3QM4w6DkVU')
-download_video('https://www.youtube.com/watch?v=5kAnh6smxLg')
+download_video('https://youtu.be/HaKBtnQMdBc?si=brt8onVquox75DRA')
