@@ -27,3 +27,13 @@
     TensorFlow
     JSON
     Git And GitHub
+
+### Prototype ScreenShots (Not Our Final Product - Design May Be Changed)
+<hr />
+    Homepage
+<img src="readme_assets/Screenshot 2024-08-25 135040.png">
+    Analytics
+<img src="readme_assets/Screenshot 2024-08-25 135053.png">
+<img src="readme_assets/Screenshot 2024-08-25 135104.png">
+    Notifications
+<img src="readme_assets/Screenshot 2024-08-25 135111.png">
